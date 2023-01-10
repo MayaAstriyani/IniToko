@@ -1,0 +1,50 @@
+[debug] [2018-10-03T04:11:55.297Z] ----------------------------------------------------------------------
+[debug] [2018-10-03T04:11:55.301Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Piakaomi Yui\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2018-10-03T04:11:55.301Z] CLI Version:   4.2.1
+[debug] [2018-10-03T04:11:55.303Z] Platform:      win32
+[debug] [2018-10-03T04:11:55.303Z] Node Version:  v8.11.3
+[debug] [2018-10-03T04:11:55.303Z] Time:          Wed Oct 03 2018 11:11:55 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-10-03T04:11:55.304Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-03T04:11:55.325Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-10-03T04:11:55.328Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  F:\xampp\htdocs\IniToko
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2018-10-03T04:12:33.021Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-10-03T04:12:33.022Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2018-10-03T04:12:33.258Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-03T04:12:33.341Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ 
+[debug] [2018-10-03T04:12:34.415Z] <<< HTTP RESPONSE 200
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote public/404.html
+[debug] [2018-10-03T04:13:25.434Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2018-10-03T04:13:47.547Z] Error: getaddrinfo ENOTFOUND www.gstatic.com www.gstatic.com:443
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND www.gstatic.com www.gstatic.com:443
